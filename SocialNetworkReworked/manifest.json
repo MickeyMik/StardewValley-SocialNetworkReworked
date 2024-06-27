@@ -6,5 +6,5 @@
 	"UniqueID": "Eela11.SocialNetworkReworked",
 	"EntryDll": "SocialNetworkReworked.dll",
 	"MinimumApiVersion": "4.0.0",
-	"UpdateKeys": []
+	"UpdateKeys": [ "GitHub:MickeyMik/StardewValley-SocialNetworkReworked" ]
 }
