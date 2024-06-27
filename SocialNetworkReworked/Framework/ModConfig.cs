@@ -3,6 +3,6 @@
 	public sealed class ModConfig
 	{
 		public int SocialNetworkBonus { get; set; } = 50;
-		public bool NetworkMessage { get; set; } = false;
+		public bool NetworkMessage { get; set; } = true;
 	}
 }
