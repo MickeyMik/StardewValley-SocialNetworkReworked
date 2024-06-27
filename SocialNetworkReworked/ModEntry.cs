@@ -92,8 +92,8 @@ namespace SocialNetworkReworked
 			);
 			configMenu.AddParagraph(
 				mod: this.ModManifest,
-				text: () => "When a villager gains or loses a heart, their close friends and family will gain or lose friendship points equal to the Social Network Bonus." +
-							"1 heart is equal to 250 friendship points. Hover over the settings for a description."
+				text: () => "When a villager gains or loses a heart, their close friends and family will gain or lose friendship points equal to the Social Network Bonus. " +
+							"1 heart is equal to 250 friendship points. Hover over setting name for description."
 			);
 			configMenu.AddBoolOption(
 				mod: this.ModManifest,
