@@ -16,8 +16,8 @@ using StardewValley.Tools;
 
 namespace SocialNetworkReworked
 {
-    /// <summary>		The mod entry point.													</summary>
-    internal sealed class ModEntry : Mod
+	/// <summary>		The mod entry point.													</summary>
+	internal sealed class ModEntry : Mod
 	{
 		/*********
 		 ** Overview
@@ -27,16 +27,16 @@ namespace SocialNetworkReworked
 		 *********
 		 *		On Start of Day (waking up in-game):
 		 *				Refresh villager list (with current heart level and relationships).
-         *********
-         *		On End of Day (going to sleep in-game):
-         *				If an NPC gained or lost a heart by the end of the day,
-         *					the NPCs in their social network gain or lose a Social Network Bonus (default +/-50 points).
-         *********
-         *		Remark:
-         *				The check is at the end of the day for two reasons:
-         *					1. Code Optimisation, only has to check once, therefore looking more neat and is more stable in-game.
-         *					2. I imagine that it would take a while for friends and family to learn about the change in friendship.
-         *********/
+		 *********
+		 *		On End of Day (going to sleep in-game):
+		 *				If an NPC gained or lost a heart by the end of the day,
+		 *					the NPCs in their social network gain or lose a Social Network Bonus (default +/-50 points).
+		 *********
+		 *		Remark:
+		 *				The check is at the end of the day for two reasons:
+		 *					1. Code Optimisation, only has to check once, therefore looking more neat and is more stable in-game.
+		 *					2. I imagine that it would take a while for friends and family to learn about the change in friendship.
+		 *********/
 
 
 		/// <summary>	Metadata for the villagers, their stored heart levels,
@@ -46,8 +46,8 @@ namespace SocialNetworkReworked
 
 
 		/*********
-        ** Public methods
-        *********/
+		 ** Public methods
+		 *********/
 		/// <summary>	The mod entry point, called after the mod is first loaded.				</summary>
 		/// <param name="helper">	Provides simplified APIs for writing mods.					</param>
 		public override void Entry(IModHelper helper)
@@ -59,8 +59,8 @@ namespace SocialNetworkReworked
 
 
 		/*********
-        ** Private methods
-        *********/
+		 ** Private methods
+		 *********/
 		/// <summary>	Raised after the game is launched, right before the first update tick.
 		///					This happens once per game session (unrelated to loading saves).	</summary>
 		/// <param name="sender">	The event sender.											</param>
@@ -170,7 +170,7 @@ namespace SocialNetworkReworked
 		/// <param name="message">	Message to display.											</param>
 		private void ShowNotification(string message)
 		{
-			if(Config.NetworkMessage)
+			if (Config.NetworkMessage)
 				Game1.addHUDMessage(new HUDMessage(message) { noIcon = true, timeLeft = 5250f });
 			this.Monitor.Log(message, LogLevel.Info);
 		}
