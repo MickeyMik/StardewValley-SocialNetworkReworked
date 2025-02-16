@@ -31,7 +31,7 @@ insert_final_newline = false
 ##########
 [*.cs]
 
-#sort 'system' usings first
+# sort 'system' usings first
 dotnet_sort_system_directives_first = true
 
 # use 'this.' qualifier
@@ -57,6 +57,9 @@ csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 csharp_style_conditional_delegate_call = true:suggestion
 csharp_prefer_simple_default_expression = true:suggestion
+
+# prefer file-scoped namespaces
+csharp_style_namespace_declarations = file_scoped:warning
 
 # prefer method block bodies
 csharp_style_expression_bodied_methods = false:suggestion

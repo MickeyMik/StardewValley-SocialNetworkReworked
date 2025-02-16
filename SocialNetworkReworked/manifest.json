@@ -1,10 +1,10 @@
-{
-	"Name": "Social Network Reworked",
-	"Author": "MickeyBoi (Eela11)",
-	"Version": "1.0.0",
-	"Description": "When you gain/lose hearts with NPCs, you gain/lose friendship with their social network! A recreation of Cecidelus' 'SocialNetwork' mod for the latest version of Stardew Valley.",
-	"UniqueID": "Eela11.SocialNetworkReworked",
-	"EntryDll": "SocialNetworkReworked.dll",
-	"MinimumApiVersion": "4.0.0",
-	"UpdateKeys": [ "GitHub:MickeyMik/StardewValley-SocialNetworkReworked" ]
+﻿{
+    "Name": "Social Network Reworked",
+    "Author": "MickeyBoi (Eela11)",
+    "Version": "1.0.0",
+    "Description": "When you gain/lose hearts with NPCs, you gain/lose friendship with their social network! A recreation of Cecidelus' 'SocialNetwork' mod for the latest version of Stardew Valley.",
+    "UniqueID": "Eela11.SocialNetworkReworked",
+    "EntryDll": "SocialNetworkReworked.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": [ "GitHub:MickeyMik/StardewValley-SocialNetworkReworked" ]
 }
